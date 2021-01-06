@@ -1,0 +1,18 @@
+git commands
+
+// USER SETUP //
+git config --global user.name "My Name"
+git config --global user.email "myemail@gmail.com"
+
+
+// COMMIT CHANGES // 
+// go to the correct folder
+git init
+
+git diff index.html
+
+git add index.html style.css  OR
+
+// add all the files
+git . 
+git commit -m "What changes you made"
